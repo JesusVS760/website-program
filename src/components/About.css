@@ -1,0 +1,17 @@
+.about-header h2 {
+  color: white;
+}
+.about-header p {
+  color: rgb(199, 191, 191);
+}
+.about-container {
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-picture img {
+  width: 200px;
+  border-radius: 10px;
+}
