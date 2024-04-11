@@ -1,0 +1,19 @@
+.experience-container {
+  padding: 50px;
+}
+.experience-content img {
+  max-width: 150px;
+}
+.experience-header h2 {
+  color: white;
+  font-size: 2rem;
+}
+.experience-header p {
+  color: rgb(199, 191, 191);
+}
+.stack-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}

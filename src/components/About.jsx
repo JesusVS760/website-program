@@ -1,6 +1,6 @@
 import React from "react";
 import download from "../Images/download.png";
-import WideShot from "../Images/wideShot.jpg";
+import WideShot from "../Images/aboutImage.jpg";
 import "./About.css";
 
 const About = () => {
