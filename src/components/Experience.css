@@ -2,7 +2,7 @@
   padding: 50px;
 }
 .experience-content img {
-  max-width: 150px;
+  width: 150px;
 }
 .experience-header h2 {
   color: white;
@@ -16,4 +16,33 @@
   align-items: center;
   justify-content: center;
   padding: 25px;
+  gap: 70px;
+}
+.stack-background {
+  background: rgb(46, 42, 42);
+  border-radius: 10px;
+}
+.node-js {
+  padding: 40px 10px;
+}
+.react-image {
+  padding: 20px 10px;
+}
+.cplusplus-image {
+  padding: 2px 10px;
+}
+.html-image {
+  padding: 5px 8px;
+}
+.html-image img {
+  width: 160px;
+}
+.js-image {
+  padding: 0px;
+}
+.js-image img {
+  width: 170px;
+}
+.css-image {
+  padding: 10px;
 }
