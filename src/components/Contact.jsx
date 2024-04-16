@@ -88,15 +88,29 @@ export const Contact = () => {
     //     <button type="submit">Send Message</button>
     //   </form>
     // </div>
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className="contact-container">
+      <div className="contact-header">
+        <h2>Contact Me</h2>
+        <p>Cultivating Connections: Reach out And Connect With Me</p>
+      </div>
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="contact-item">
+          <label placeholder="Full Name">Name</label>
+          <input type="text" name="user_name" className="user-input" />
+        </div>
+        <div className="contact-item">
+          <label placeholder="Email Address">Email</label>
+          <input type="email" name="user_email" className="user-input" />
+        </div>
+        <div className="contact-item">
+          <label placeholder="Message">Message</label>
+          <textarea name="message" className="message-input" />
+          <div className="contact-item">
+            <input type="submit" value="Send" className="send-input" />
+          </div>
+        </div>
+      </form>
+    </div>
   );
 };
 
