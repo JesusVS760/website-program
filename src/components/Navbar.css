@@ -1,11 +1,16 @@
 body {
   margin: 0;
 }
+a {
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
 .nav-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
+  scroll-behavior: smooth;
 }
 .nav-container img {
   width: 100px;
@@ -37,18 +42,19 @@ body {
   align-items: center;
   justify-content: center;
 }
-.navbar-options li {
-  list-style-type: none;
+.navbar-options a {
   color: rgb(199, 191, 191);
   cursor: pointer;
   padding: 0 10px;
   margin-right: 60px;
   transition: 0.3s ease;
 }
-.navbar-options li:hover {
+.navbar-options a:hover {
   color: #fd6f00;
 }
 
 .navbar-options :nth-child(1) {
   color: #fd6f00;
+}
+.scroll-page {
 }

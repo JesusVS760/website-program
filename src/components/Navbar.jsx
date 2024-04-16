@@ -7,10 +7,10 @@ const Navbar = () => {
       <img src={Hero} alt="Hero" />
       <div className="navbar">
         <nav className="navbar-options">
-          <li className="home-button">Home</li>
-          <li>About Me</li>
-          <li>Experience</li>
-          <li>Contact Me</li>
+          <a className="home-button">Home</a>
+          <a href="#page-1">About Me</a>
+          <a href="#page-2">Experience</a>
+          <a href="#page-3">Contact Me</a>
         </nav>
       </div>
       <button>Hire Me</button>

@@ -12,7 +12,7 @@ const Experience = () => {
   return (
     <div className="experience-container">
       <div className="experience-header">
-        <h2>Tech Stack/Experience</h2>
+        <h2 id="page-2">Tech Stack/Experience</h2>
         <p>The following represents my skills sets and experience thus far.</p>
       </div>
       <div className="experience-content">
