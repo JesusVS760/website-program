@@ -1,5 +1,6 @@
 .contact-container {
   margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,46 +12,6 @@
 .contact-header p {
   color: rgb(199, 191, 191);
 }
-
-/* form .input-box {
-  display: flex;
-  justify-content: space-between;
-}
-.input-box .inputfield {
-  width: 48.5%;
-}
-.field .item {
-  width: 100%;
-  padding: 18px;
-  background: transparent;
-  border: 2px solid #fd6f00;
-  outline: none;
-  border-radius: 6px;
-  font-size: 0.9rem;
-  color: white;
-  margin: 12px 0;
-}
-.field .item::placeholder {
-  color: rgba(255, 255, 255, 0.3);
-}
-form .textarea-field .item {
-  resize: none;
-}
-form button {
-  padding: 12px 32px;
-  background: #fd6f00;
-  border: none;
-  outline: none;
-  color: white;
-  font-weight: bold;
-  border-radius: 5px;
-  box-shadow: 0 0 10px #fd6f00;
-  cursor: pointer;
-  letter-spacing: 1px;
-  transition: 0.5s; 
-}
-*/
-
 form {
   display: flex;
   align-items: center;
@@ -59,7 +20,7 @@ form {
 }
 form label {
   color: #fd6f00;
-
+  text-shadow: 0 0 10px #fd6f00;
   font-weight: 600;
   margin: 10px 0px;
   outline: none;
@@ -67,6 +28,7 @@ form label {
 form input,
 textarea {
   border-radius: 6px;
+  font-size: 1rem;
 }
 .contact-item {
   display: flex;

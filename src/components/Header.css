@@ -18,6 +18,7 @@
   cursor: pointer;
   margin-top: 65px;
 }
+
 .header-buttons :nth-child(2) {
   background-color: transparent;
   outline: none;
@@ -34,6 +35,12 @@
   background-color: #fd6f00;
   border: none;
   outline: none;
+}
+.header-buttons :nth-child(1) {
+  transition: 0.5s;
+}
+.header-buttons :nth-child(1):hover {
+  box-shadow: none;
 }
 .header-container h3 {
   word-wrap: break-word;
