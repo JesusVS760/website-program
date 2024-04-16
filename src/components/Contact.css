@@ -5,6 +5,12 @@
   justify-content: center;
   flex-direction: column;
 }
+.contact-header h2 {
+  color: white;
+}
+.contact-header p {
+  color: rgb(199, 191, 191);
+}
 .contact-container form {
   width: 600px;
   text-align: center;
@@ -43,4 +49,22 @@ form button {
   border-radius: 5px;
   box-shadow: 0 0 10px #fd6f00;
   cursor: pointer;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+form button:hover {
+  box-shadow: none;
+}
+.field .error-txt::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+.field .error-txt {
+  font-size: 1rem;
+  color: #d93025;
+  text-align: left;
+  margin: -5px 0 10px;
+  display: none;
+}
+form .textarea-field .error-txt {
+  margin-top: -10px;
 }
