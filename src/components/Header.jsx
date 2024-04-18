@@ -25,8 +25,16 @@ const Header = () => {
           </button>
         </div>
         <div className="header-buttons">
-          <button className="hire-button">Hire Me</button>
-          <button>Download CV</button>
+          <a
+            href="mailto: jesusvazquezama760@gmail.com
+"
+            className="hire-button"
+          >
+            Hire Me
+          </a>
+          <a href="/Jesus%20Vazquez%20Resume%202024.pdf" type="pdf" download>
+            Download CV
+          </a>
         </div>
       </div>
       <div className="header-hero">

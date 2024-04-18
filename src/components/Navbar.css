@@ -1,6 +1,9 @@
 body {
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   scroll-behavior: smooth;
   text-decoration: none;

@@ -7,6 +7,7 @@
   color: #fd6f00;
   font-size: 4rem;
   margin-top: 0;
+  text-shadow: 0 0 5px #fd6f00;
 }
 .header-content {
   display: flex;
@@ -51,6 +52,7 @@
   color: white;
   word-wrap: wrap;
   display: block;
+  text-shadow: 0 0 5px white;
 }
 .hire-button {
   margin-right: 25px;

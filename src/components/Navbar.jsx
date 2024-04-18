@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="#page-3">Contact Me</a>
         </nav>
       </div>
-      <button>Hire Me</button>
+      <button href="page-4">Hire Me</button>
     </div>
   );
 };
