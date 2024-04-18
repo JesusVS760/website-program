@@ -3,6 +3,8 @@ import Github from "../Images/GitHubIcon.png";
 import linkedin from "../Images/linkedin.webp";
 import instagram from "../Images/InstagramIcon.png";
 import profile from "../Images/file.png";
+import Resume from "../Images/Jesus Vazquez Resume 2024.pdf";
+
 import "./Header.css";
 
 const Header = () => {
@@ -26,13 +28,12 @@ const Header = () => {
         </div>
         <div className="header-buttons">
           <a
-            href="mailto: jesusvazquezama760@gmail.com
-"
+            href="mailto: jesusvazquezama760@gmail.com"
             className="hire-button"
           >
             Hire Me
           </a>
-          <a href="/Jesus%20Vazquez%20Resume%202024.pdf" type="pdf" download>
+          <a href={Resume} download>
             Download CV
           </a>
         </div>

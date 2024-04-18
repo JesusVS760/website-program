@@ -1,6 +1,7 @@
 import React from "react";
 import download from "../Images/download.png";
 import WideShot from "../Images/aboutImage.jpg";
+import Resume from "../Images/Jesus Vazquez Resume 2024.pdf";
 import "./About.css";
 
 const About = () => {
@@ -29,9 +30,9 @@ const About = () => {
             new to learn and explore, from emerging programming languages to
             cutting-edge frameworks and tools.
           </p>
-          <button>
+          <a href={Resume} download>
             <img src={download} alt="download Icon" /> Download CV
-          </button>
+          </a>
         </div>
       </div>
     </div>

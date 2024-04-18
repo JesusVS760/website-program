@@ -23,7 +23,7 @@
 .about-information {
   color: white;
 }
-.about-information button {
+.about-information a {
   background: #fd6f00;
   color: white;
   display: flex;

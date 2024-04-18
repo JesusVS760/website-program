@@ -13,7 +13,12 @@ const Navbar = () => {
           <a href="#page-3">Contact Me</a>
         </nav>
       </div>
-      <button href="page-4">Hire Me</button>
+      <button href="page-4" className="hire-button">
+        <a href="mailto: jesusvazquezama760@gmail.com" className="hire-anchor">
+          {" "}
+          Hire Me
+        </a>
+      </button>
     </div>
   );
 };

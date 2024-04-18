@@ -59,5 +59,9 @@ a {
 .navbar-options :nth-child(1) {
   color: #fd6f00;
 }
-.scroll-page {
+
+.hire-anchor {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
 }
