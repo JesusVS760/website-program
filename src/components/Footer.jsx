@@ -41,7 +41,7 @@ const Footer = () => {
       <div className="footer-copyright">
         <hr />
         <p>
-          Programed/Designed by Jesus Vazquez Aspiring Web Developer/Software
+          Programmed/Designed by Jesus Vazquez Aspiring Web Developer/Software
           Engineer
         </p>
       </div>

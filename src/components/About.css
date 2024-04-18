@@ -39,7 +39,7 @@
   box-shadow: 0 0 10px #fd6f00;
   transition: 0.5s;
 }
-.about-information button:hover {
+.about-information a:hover {
   box-shadow: none;
 }
 .about-content button {
