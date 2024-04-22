@@ -74,3 +74,28 @@
 .header-links a img {
   width: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile-image {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .header-container h1 {
+    margin-right: 10px;
+    font-size: 3rem;
+  }
+  .header-container h3 span {
+    align-items: center;
+    margin-right: 10px;
+    font-size: 2.5rem;
+  }
+}

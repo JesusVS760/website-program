@@ -52,3 +52,28 @@
   padding: 20px;
   line-height: 2;
 }
+@media screen and (max-width: 768px) {
+  .about-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-size: 0.8rem;
+  }
+  .about-information {
+    padding: 20px;
+  }
+  .about-information a {
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  .about-picture img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 0;
+  }
+}
