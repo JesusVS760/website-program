@@ -17,13 +17,16 @@ const Footer = () => {
         <a href="">Hire Me</a>
       </div>
       <div className="footer-links">
-        <a href="">
+        <a href="https://github.com/JesusVS760" target="_blank">
           <img src={github} alt="github" />
         </a>
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/jesus-vazquez-7313042b8/"
+          target="_blank"
+        >
           <img src={linkedin} alt="linkedin" />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/jesus_v760" target="_blank">
           <img src={instagram} alt="instagram" />
         </a>
       </div>
