@@ -1,6 +1,6 @@
 import React from "react";
 import Github from "../Images/GitHubIcon.png";
-import linkedin from "../Images/linkedin.webp";
+import linkedin from "../Images/linkedinIcon.png";
 import instagram from "../Images/InstagramIcon.png";
 import profile from "../Images/file.png";
 import Resume from "../Images/Jesus Vazquez Resume 2024.pdf";
@@ -16,15 +16,18 @@ const Header = () => {
         </h3>
         <h1>Frontend Developer</h1>
         <div className="header-links">
-          <button>
+          <a href="https://www.instagram.com/jesus_v760" target="_blank">
             <img src={instagram} alt="instagram" />
-          </button>
-          <button>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/jesus-vazquez-7313042b8/"
+            target="_blank"
+          >
             <img src={linkedin} alt="linkedin" />
-          </button>
-          <button>
+          </a>
+          <a href="https://github.com/JesusVS760" target="_blank">
             <img src={Github} alt="github" />
-          </button>
+          </a>
         </div>
         <div className="header-buttons">
           <a

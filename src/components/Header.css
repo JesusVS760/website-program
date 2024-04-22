@@ -9,6 +9,7 @@
   margin-top: 0;
   text-shadow: 0 0 5px #fd6f00;
 }
+
 .header-content {
   display: flex;
   flex-direction: column;
@@ -63,13 +64,13 @@
   max-height: 700px;
   border-radius: 100%;
 }
-.header-links button {
+.header-links a {
   cursor: pointer;
   background: transparent;
   border: none;
   outline: none;
-  width: 50px;
+  margin-right: 10px;
 }
-.header-links button img {
-  height: 30px;
+.header-links a img {
+  width: 30px;
 }

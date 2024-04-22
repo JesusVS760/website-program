@@ -1,6 +1,6 @@
 import React from "react";
 import github from "../Images/GitHubIcon.png";
-import linkedin from "../Images/linkedin.png";
+import linkedin from "../Images/linkedinIcon.png";
 import instagram from "../Images/InstagramIcon.png";
 import email from "../Images/email.png";
 import phone from "../Images/phone.png";
