@@ -61,3 +61,8 @@ textarea {
 .send-input:hover {
   box-shadow: none;
 }
+@media screen and (max-width: 768px) {
+  .message-input {
+    max-width: 450px;
+  }
+}
