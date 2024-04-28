@@ -3,8 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  transition: left 0.5s;
 }
 @media screen and (max-width: 768px) {
-  body {
-  }
+  /* body {
+  } */
 }
