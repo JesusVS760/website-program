@@ -46,3 +46,12 @@
 .css-image {
   padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .experience-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
