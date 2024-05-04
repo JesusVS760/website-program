@@ -11,15 +11,24 @@ const Navbar = () => {
     console.log("isHamMenuActive:", isHamMenuActive);
   }
 
+  function pageJump() {
+    setIsHamMenuActive(!isHamMenuActive);
+  }
   return (
     <div className="nav-container">
       <img src={Hero} alt="Hero" />
       <div className="navbar">
         <div className={`off-screen-menu ${isHamMenuActive ? "active" : ""}`}>
           <a className="home-button">Home</a>
-          <a href="#page-1">About Me</a>
-          <a href="#page-2">Experience</a>
-          <a href="#page-3">Contact Me</a>
+          <a href="#page-1" onClick={pageJump}>
+            About Me
+          </a>
+          <a href="#page-2" onClick={pageJump}>
+            Experience
+          </a>
+          <a href="#page-3" onClick={pageJump}>
+            Contact Me
+          </a>
         </div>
         <div className={`ham-menu ${isHamMenuActive ? "active" : ""}`}>
           <nav className="ham-menu" onClick={toggleHamMenu}>

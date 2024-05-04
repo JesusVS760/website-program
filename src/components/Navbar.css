@@ -116,6 +116,16 @@ a {
   .off-screen-menu.active a {
     font-size: 1.5rem;
     margin-left: 20px;
+    color: white;
+    margin-bottom: 50px;
+    transition: 0.3s ease;
+  }
+  .off-screen-menu.active a:nth-child(1) {
+    color: #fd6f00;
+  }
+  .off-screen-menu.active a:hover {
+    color: #fd6f00;
+    box-shadow: 0 0 10px #fd6f00;
   }
   nav {
     padding: 1rem;
@@ -126,6 +136,7 @@ a {
     width: 50px;
     margin-left: auto;
     position: relative;
+    margin-right: 25px;
   }
   .ham-menu span {
     height: 5px;
